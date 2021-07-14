@@ -20,157 +20,157 @@ function showResults(n) {
     // implemente o código do kata 1 aqui
     let num = [];
     for(i=1; i<=25; i++) {
-        num += i + ' ';
+        num.push(i)
     }
-    return showResults('Resultado do kata1: ' + num)
+    return num
  }
- kata1()
-
+ showResults('Resultado do kata1: ' + kata1())
+ 
 function kata2() {
     // implemente o código do kata 2 aqui
     let num = [];
     for(i=25; i>=1; i--) {
-        num += i + ' ';
+        num.push(i)
     }
-    return showResults('Resultado do kata2: ' + num)
+    return num
 }
-kata2()
+showResults('Resultado do kata2: ' + kata2())
 
 function kata3() {
     // implemente o código do kata 3 aqui
     let num = [];
     for(i=1; i<=25; i++) {
-        num += (i*-1) + ' ';
+        num.push(i*-1)
     }
-    return showResults('Resultado do kata3: ' + num)
+    return num
 }
-kata3()
+showResults('Resultado do kata3: ' + kata3())
 
 function kata4() {
     // implemente o código do kata 4 aqui
     let num = [];
     for(i=25; i>=1; i--) {
-        num += (i*-1) + ' ';
+        num.push(i*-1)
     }
-    return showResults('Resultado do kata4: ' + num)
+    return num
 }
-kata4()
+showResults('Resultado do kata4: ' + kata4())
 
 function kata5() {
     // implemente o código do kata 5 aqui
     let num = [];
     for(i=25; i>=-25; i--) {
         if(i % 2 !== 0){
-            num += i + ' ';
+            num.push(i)
         }
     }
-    return showResults('Resultado do kata5: ' + num)
+    return num
 }
-kata5()
+showResults('Resultado do kata5: ' + kata5())
 
 function kata6() {
     // implemente o código do kata 6 aqui
     let num = [];
     for(i=1; i<=100; i++) {
         if(i % 3 === 0){
-            num += i + ' ';
+            num.push(i)
         }
     }
-    return showResults('Resultado do kata6: ' + num)
+    return num
 }
-kata6()
+showResults('Resultado do kata6: ' + kata6())
 
 function kata7() {
     // implemente o código do kata 7 aqui
     let num = [];
     for(i=1; i<=100; i++) {
         if(i % 7 === 0){
-            num += i + ' ';
+            num.push(i)
         }
     }
-    return showResults('Resultado do kata7: ' + num)
+    return num
 }
-kata7()
+showResults('Resultado do kata7: ' + kata7())
 
 function kata8() {
     // implemente o código do kata 8 aqui
     let num = [];
     for(i=100; i>=1; i--) {
         if(i %3 === 0 || i % 7 === 0){
-            num += i + ' ';
+            num.push(i)
         }
     }
-    return showResults('Resultado do kata8: ' + num)
+    return num
 }
-kata8()
+showResults('Resultado do kata8: ' + kata8())
 
 function kata9() {
     // implemente o código do kata 9 aqui
     let num = [];
     for(i=1; i<=100; i++) {
         if(i % 5 === 0 && i % 2 !== 0){
-            num += i + ' ';
+            num.push(i)
         }
     }
-    return showResults('Resultado do kata9: ' + num)
+    return num
 }
-kata9()
+showResults('Resultado do kata9: ' + kata9())
 
 function kata10() {
     // implemente o código do kata 10 aqui
     let num = [];
     for(i=0; i<sampleArray.length; i++) {
-            num += sampleArray[i]+ ' ';
+            num.push(sampleArray[i])
     }
-    return showResults('Resultado do kata10: ' + num)
+    return num
 }
-kata10()
+showResults('Resultado do kata10: ' + kata10())
 
 function kata11() {
     // implemente o código do kata 11 aqui
     let num = [];
     for(i=0; i<sampleArray.length; i++) {
         if(sampleArray[i] % 2 === 0){
-            num += sampleArray[i] + ' ';
+            num.push(sampleArray[i])
         }
     }
-    return showResults('Resultado do kata11: ' + num)
+    return num
 }
-kata11()
+showResults('Resultado do kata11: ' + kata11())
 
 function kata12() {
     // implemente o código do kata 12 aqui
     let num = [];
     for(i=0; i<sampleArray.length; i++) {
         if(sampleArray[i] % 2 !== 0){
-            num += sampleArray[i] + ' ';
+            num.push(sampleArray[i])
         }
     }
-    return showResults('Resuldato do kata12: ' + num)
+    return num
 }
-kata12()
+showResults('Resultado do kata12: ' + kata12())
 
 function kata13() {
     // implemente o código do kata 13 aqui
     let num = [];
     for(i=0; i<sampleArray.length; i++) {
         if(sampleArray[i] % 8 === 0){
-            num += sampleArray[i] + ' ';
+            num.push(sampleArray[i])
         }
     }
-    return showResults('Resultado do kata13: ' + num)
+    return num
 }
-kata13()
+showResults('Resultado do kata13: ' + kata13())
 
 function kata14() {
     // implemente o código do kata 14 aqui
     let num = [];
     for(i=0; i<sampleArray.length; i++) {
-        num += (sampleArray[i] * sampleArray[i])+ ' ';
+        num.push(sampleArray[i] * sampleArray[i]);
     }
-    return showResults('Resultado do kata14: ' + num)
+    return num
 }
-kata14()
+showResults('Resultado do kata14: ' + kata14())
 
 function kata15() {
     // implemente o código do kata 15 aqui
@@ -178,9 +178,9 @@ function kata15() {
     for(i=1; i<=20; i++) {
         sum+=i
     }
-    return showResults('Resultado do kata15: ' + sum)
+    return sum
 }
-kata15()
+showResults('Resultado do kata15: ' + kata15())
 
 function kata16() {
     // implemente o código do kata 16 aqui
@@ -188,9 +188,9 @@ function kata16() {
     for(i=0; i<sampleArray.length; i++) {
         sum += sampleArray[i]
     }
-    return showResults('Resultado do kata16: ' + sum)
+    return sum
 }
-kata16()
+showResults('Resultado do kata16: ' + kata16())
 
 function kata17() {
     // implemente o código do kata 17 aqui
@@ -203,9 +203,9 @@ function kata17() {
             menor = sampleArray[i];
         }
     }
-    return showResults('Resultado do kata17: ' + menor)
+    return menor
 }
-kata17()
+showResults('Resultado do kata17: ' + kata17())
 
 function kata18() {
     // implemente o código do kata 18 aqui
@@ -218,9 +218,9 @@ function kata18() {
             maior = sampleArray[i];
         }
     }
-    return showResults('Resultado do kata18: ' + maior)
+    return maior
 }
-kata18()
+showResults('Resultado do kata18: ' + kata18())
 
 /**
  * Daqui em diante são os bônus, por sua conta e risco
