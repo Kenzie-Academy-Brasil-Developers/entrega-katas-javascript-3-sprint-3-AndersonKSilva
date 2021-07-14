@@ -22,9 +22,10 @@ function showResults(n) {
     for(i=1; i<=25; i++) {
         num.push(i)
     }
+    showResults('Resultado do kata1: ' + num)
     return num
  }
- showResults('Resultado do kata1: ' + kata1())
+ kata1()
  
 function kata2() {
     // implemente o código do kata 2 aqui
@@ -32,9 +33,10 @@ function kata2() {
     for(i=25; i>=1; i--) {
         num.push(i)
     }
+    showResults('Resultado do kata2: ' + num)
     return num
 }
-showResults('Resultado do kata2: ' + kata2())
+kata2()
 
 function kata3() {
     // implemente o código do kata 3 aqui
@@ -42,9 +44,10 @@ function kata3() {
     for(i=1; i<=25; i++) {
         num.push(i*-1)
     }
+    showResults('Resultado do kata3: ' + num)
     return num
 }
-showResults('Resultado do kata3: ' + kata3())
+kata3()
 
 function kata4() {
     // implemente o código do kata 4 aqui
@@ -52,9 +55,10 @@ function kata4() {
     for(i=25; i>=1; i--) {
         num.push(i*-1)
     }
+    showResults('Resultado do kata4: ' + num)
     return num
 }
-showResults('Resultado do kata4: ' + kata4())
+kata4()
 
 function kata5() {
     // implemente o código do kata 5 aqui
@@ -64,9 +68,10 @@ function kata5() {
             num.push(i)
         }
     }
+    showResults('Resultado do kata5: ' + num)
     return num
 }
-showResults('Resultado do kata5: ' + kata5())
+kata5()
 
 function kata6() {
     // implemente o código do kata 6 aqui
@@ -76,9 +81,10 @@ function kata6() {
             num.push(i)
         }
     }
+    showResults('Resultado do kata6: ' + num)
     return num
 }
-showResults('Resultado do kata6: ' + kata6())
+kata6()
 
 function kata7() {
     // implemente o código do kata 7 aqui
@@ -88,9 +94,10 @@ function kata7() {
             num.push(i)
         }
     }
+    showResults('Resultado do kata7: ' + num)
     return num
 }
-showResults('Resultado do kata7: ' + kata7())
+kata7()
 
 function kata8() {
     // implemente o código do kata 8 aqui
@@ -100,9 +107,10 @@ function kata8() {
             num.push(i)
         }
     }
+    showResults('Resultado do kata8: ' + num)
     return num
 }
-showResults('Resultado do kata8: ' + kata8())
+kata8()
 
 function kata9() {
     // implemente o código do kata 9 aqui
@@ -112,9 +120,10 @@ function kata9() {
             num.push(i)
         }
     }
+    showResults('Resultado do kata9: ' + num)
     return num
 }
-showResults('Resultado do kata9: ' + kata9())
+kata9()
 
 function kata10() {
     // implemente o código do kata 10 aqui
@@ -122,9 +131,10 @@ function kata10() {
     for(i=0; i<sampleArray.length; i++) {
             num.push(sampleArray[i])
     }
+    showResults('Resultado do kata10: ' + num)
     return num
 }
-showResults('Resultado do kata10: ' + kata10())
+kata10()
 
 function kata11() {
     // implemente o código do kata 11 aqui
@@ -134,9 +144,10 @@ function kata11() {
             num.push(sampleArray[i])
         }
     }
+    showResults('Resultado do kata11: ' + num)
     return num
 }
-showResults('Resultado do kata11: ' + kata11())
+kata11()
 
 function kata12() {
     // implemente o código do kata 12 aqui
@@ -146,9 +157,10 @@ function kata12() {
             num.push(sampleArray[i])
         }
     }
+    showResults('Resultado do kata12: ' + num)
     return num
 }
-showResults('Resultado do kata12: ' + kata12())
+kata12()
 
 function kata13() {
     // implemente o código do kata 13 aqui
@@ -158,9 +170,10 @@ function kata13() {
             num.push(sampleArray[i])
         }
     }
+    showResults('Resultado do kata13: ' + num)
     return num
 }
-showResults('Resultado do kata13: ' + kata13())
+kata13()
 
 function kata14() {
     // implemente o código do kata 14 aqui
@@ -168,9 +181,10 @@ function kata14() {
     for(i=0; i<sampleArray.length; i++) {
         num.push(sampleArray[i] * sampleArray[i]);
     }
+    showResults('Resultado do kata14: ' + num)
     return num
 }
-showResults('Resultado do kata14: ' + kata14())
+kata14()
 
 function kata15() {
     // implemente o código do kata 15 aqui
@@ -178,9 +192,10 @@ function kata15() {
     for(i=1; i<=20; i++) {
         sum+=i
     }
+    showResults('Resultado do kata15: ' + sum)
     return sum
 }
-showResults('Resultado do kata15: ' + kata15())
+kata15()
 
 function kata16() {
     // implemente o código do kata 16 aqui
@@ -188,9 +203,10 @@ function kata16() {
     for(i=0; i<sampleArray.length; i++) {
         sum += sampleArray[i]
     }
+    showResults('Resultado do kata16: ' + sum)
     return sum
 }
-showResults('Resultado do kata16: ' + kata16())
+kata16()
 
 function kata17() {
     // implemente o código do kata 17 aqui
@@ -203,9 +219,10 @@ function kata17() {
             menor = sampleArray[i];
         }
     }
+    showResults('Resultado do kata17: ' + menor)
     return menor
 }
-showResults('Resultado do kata17: ' + kata17())
+kata17()
 
 function kata18() {
     // implemente o código do kata 18 aqui
@@ -218,9 +235,10 @@ function kata18() {
             maior = sampleArray[i];
         }
     }
+    showResults('Resultado do kata18: ' + maior)
     return maior
 }
-showResults('Resultado do kata18: ' + kata18())
+kata18()
 
 /**
  * Daqui em diante são os bônus, por sua conta e risco
